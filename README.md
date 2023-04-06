@@ -16,7 +16,7 @@ Neural Radiance Field (NeRF) has broken new ground in the novel view synthesis d
 
 ## Installation
 
-We recommend to use [Anaconda](https://www.anaconda.com/products/individual) to set up the environment. First, create a new `regnerf` environment: 
+We recommend to use [Anaconda](https://www.anaconda.com/products/individual) to set up the environment. First, create a new `mixnerf` environment: 
 
 ```conda create -n mixnerf python=3.6.15```
 
