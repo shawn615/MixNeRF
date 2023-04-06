@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Evaluation script for RegNeRF."""
+"""Evaluation script for MixNeRF."""
 import functools
 from os import path
 import time
