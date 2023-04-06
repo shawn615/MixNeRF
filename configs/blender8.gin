@@ -1,0 +1,37 @@
+# Blender settings
+Config.data_dir = "data/nerf_synthetic"
+Config.checkpoint_dir = "out/mixnerf_blender8_ship"
+Config.dataset_loader = 'blender'
+Config.blender_scene = 'ship'
+Config.white_background = True
+Config.factor = 2
+Config.render_factor = 2
+MLP.density_noise = 1.
+
+Config.n_input_views = 8
+Config.max_steps = 156250
+
+Config.lr_init = 0.001
+Config.lr_final = 0.00001
+Config.lr_delay_steps = 512
+Config.lr_delay_mult = 0.01
+Config.grad_max_norm = 0.1
+Config.grad_max_val = 0.1
+
+Config.anneal_nearfar = False
+Config.anneal_nearfar_steps = 256
+Config.anneal_nearfar_perc = 0.5
+
+############## mixnerf ##############
+Config.nll_loss = True
+Config.nll_loss_maxstep = 512
+Config.nll_loss_weight_start = 4.0
+Config.nll_loss_weight_end = 1e-3
+Config.raydepth_nll_loss = True
+Config.raydepth_nll_weight = 1e-4
+Config.remodel_nll_loss = True
+Config.remodel_nll_weight = 1e-5
+############## mixnerf ##############
+
+Config.train_render_every = 5000
+Config.load_random_rays = False
