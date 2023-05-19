@@ -82,11 +82,13 @@ After downloading the checkpoints, you need to change the `Config.checkpoint_dir
 
 If you find our work useful, please cite it as
 ```
-@article{seo2023mixnerf,
-  title={MixNeRF: Modeling a Ray with Mixture Density for Novel View Synthesis from Sparse Inputs},
-  author={Seo, Seunghyeon and Han, Donghoon and Chang, Yeonjin and Kwak, Nojun},
-  journal={arXiv preprint arXiv:2302.08788},
-  year={2023}
+@InProceedings{Seo_2023_CVPR,
+    author    = {Seo, Seunghyeon and Han, Donghoon and Chang, Yeonjin and Kwak, Nojun},
+    title     = {MixNeRF: Modeling a Ray With Mixture Density for Novel View Synthesis From Sparse Inputs},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {20659-20668}
 }
 ```
 *The template is borrowed from the [RegNeRF repository](https://github.com/google-research/google-research/tree/master/regnerf).
